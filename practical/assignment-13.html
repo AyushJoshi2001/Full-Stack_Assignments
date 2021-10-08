@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Assignment-13</title>
+  </head>
+  <style>
+    .signupButton {
+      background-color: blueviolet;
+      padding: 5px 12px 5px 12px;
+      color: white;
+      outline: none;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+
+    .green {
+      color: green;
+    }
+
+    .purple {
+      color: blueviolet;
+    }
+
+    td {
+      width: 130px;
+      height: 30px;
+    }
+    th {
+      width: 130px;
+      height: 50px;
+    }
+
+    .lightGreen {
+      background-color: lightgreen;
+    }
+    .light {
+      background-color: aliceblue;
+    }
+    .lightBlue {
+      background-color: lightblue;
+    }
+  </style>
+  <body>
+    <div class="main">
+      <p style="text-align: center; font-size: 30px; font-weight: bold">
+        SELECT YOUR PLAN
+      </p>
+      <div class="table">
+        <div style="display: flex; justify-content: center">
+          <table style="text-align: center">
+            <tr class="purple" style="font-size: 25px">
+              <th class="lightGreen"><i class="fas fa-adjust"></i> Baisc</th>
+              <th class="lightGreen"><i class="fab fa-angellist"></i> Plus</th>
+              <th class="lightBlue"><i class="fas fa-archway"></i> Duelux</th>
+              <th class="lightBlue"><i class="fab fa-500px"></i> Pro</th>
+            </tr>
+            <tr style="font-size: 20px">
+              <td class="green light">Rs. 500/-</td>
+              <td class="green light">Rs. 1500/-</td>
+              <td class="green light">Rs. 2500/-</td>
+              <td class="green light">Rs. 3500/-</td>
+            </tr>
+            <tr>
+              <td class="lightGreen">50 Pages</td>
+              <td class="lightGreen">75 Pages</td>
+              <td class="lightBlue">unlimited</td>
+              <td class="lightBlue">Unlimited</td>
+            </tr>
+            <tr>
+              <td class="light">3 users</td>
+              <td class="light">5 users</td>
+              <td class="light">10 users</td>
+              <td class="light">Unlimited</td>
+            </tr>
+            <tr>
+              <td class="lightGreen">10 Sites</td>
+              <td class="lightGreen">25 Sites</td>
+              <td class="lightBlue">100 Sites</td>
+              <td class="lightBlue">Unlimited</td>
+            </tr>
+            <tr>
+              <td class="light">3 users</td>
+              <td class="light">5 users</td>
+              <td class="light">10 users</td>
+              <td class="light">Unlimited</td>
+            </tr>
+            <tr>
+              <td class="lightGreen">50 MB</td>
+              <td class="lightGreen">250 MB</td>
+              <td class="lightBlue">1 GB</td>
+              <td class="lightBlue">5 GB</td>
+            </tr>
+            <tr>
+              <td class="light">included</td>
+              <td class="light">included</td>
+              <td class="light">included</td>
+              <td class="light">included</td>
+            </tr>
+            <tr>
+              <th class="lightGreen">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+              <td class="lightGreen">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+              <td class="lightBlue">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+              <td class="lightBlue">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td class="light">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-lg"
+                  style="color: red"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"
+                  />
+                </svg>
+              </td>
+              <td class="light">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+              <td class="light">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+              <td class="light">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td class="lightGreen">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-lg"
+                  style="color: red"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"
+                  />
+                </svg>
+              </td>
+              <td class="lightGreen">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+              <td class="lightBlue">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+              <td class="lightBlue">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td class="light">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-lg"
+                  style="color: red"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"
+                  />
+                </svg>
+              </td>
+              <td class="light">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  style="color: red"
+                  class="bi bi-x-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"
+                  />
+                </svg>
+              </td>
+              <td class="light">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+              <td class="light">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td class="lightGreen">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-lg"
+                  style="color: red"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"
+                  />
+                </svg>
+              </td>
+              <td class="lightGreen">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  style="color: red"
+                  class="bi bi-x-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"
+                  />
+                </svg>
+              </td>
+              <td class="lightBlue">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  style="color: red"
+                  class="bi bi-x-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"
+                  />
+                </svg>
+              </td>
+              <td class="lightBlue">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  style="color: green"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"
+                  />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                  <div class="light">
+                      <button class="signupButton">Sign Up</button>
+                  </div>
+              </th>
+              <th class="light">
+                <button class="signupButton">Sign Up</button>
+              </th>
+              <th class="light">
+                <button class="signupButton">Sign Up</button>
+              </th>
+              <th class="light">
+                <button class="signupButton">Sign Up</button>
+              </th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
